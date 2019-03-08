@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Jura" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-1 col-10 d-flex align-items-center" id="card">
+                <div class="row">
+                    <div class="col-10 offset-1 col-md-4 offset-md-0 col-lg-4" id="photo"></div>
+                    <div class="col-lg-5 col-md-8 col-12 d-flex align-items-center">
+                        <h6 class="second-text ">CZEŚĆ, JESTEM OBECNIE NA POCZĄTKU SWOJEJ PRZYGODY Z PROGRAMOWANIEM WEBOWYM.
+                                
+                                SZUKAM MIEJSCA W KTÓRYM MOGŁABYM ROZWIJAĆ SWOJE UMIEJĘTNOŚCI, ORAZ PODEJMOWAĆ NOWE WYZWANIA.
+                                
+                                DOTYCHCZAS ZAJMOWAŁAM SIĘ TESTOWANIEM OPROGRAMOWANIA, TERAZ CHCIAŁABYM JE TWORZYĆ.
+                            ZAPRASZAM DO SEKCJI PORTFOLIO, GDZIE ZNAJDUJĄ SIĘ DOTYCHCZAS WYKONANE PRZEZE MNIE PROJEKTY.
+                        </h6>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-flex align-items-center" style="border-left:1px solid lightgray; height: 383px; width: 0"> <!--nie wyświetlaj na najmniejszych aż do lg i na lg pokaż i wzwyż  -->
+                        <div class="row second-text text-left" id="right-icons">
+                            <div class="col-12 py-2">
+                                <i class="fas fa-user fa-2x"></i> OLGA ŚPIEWAK
+                            </div>
+                            <div class="col-12 py-2">
+                                <i class="fas fa-home fa-2x"></i> CZĘSTOCHOWA
+                            </div>
+                            <div class="col-12 py-2">
+                                <i class="fas fa-envelope fa-2x"></i> <span class="responsive-font">spiewakola@gmail.com</span>
+                            </div>
+                            <div class="col-12 py-2">
+                                <i class="fas fa-mobile fa-2x"></i> 737 176 112
+                            </div>
+                            <div class="col-12 py-2">
+                                <i class="fab fa-linkedin fa-2x"></i> <a class="gray" href="https://www.linkedin.com/in/olga-%C5%9Bpiewak-30a590148/">linkedin.com</a>
+                            </div>
+                            <div class="col-12 py-2">
+                                <i class="fab fa-github fa-2x"></i> <a class="gray" href="https://github.com/spiewakola">github.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-none d-lg-block mt-5">
+            <div class="offset-1 col-7" id="icons">
+                <div class="row gray">
+                    <div class="col-3 tab active text-center" data-content="#profile">
+                        <i class="fas fa-user fa-4x"></i><br/>
+                        <small class="text-uppercase">Profil</small>
+                    </div>
+                    <div class="col-3 tab  text-center" data-content="#resume">
+                        <i class="fas fa-chart-area fa-4x"></i><br/>
+                        <small class="text-uppercase">Edukacja</small>
+                    </div>
+                    <div class="col-3 tab  text-center" data-content="#code">
+                        <i class="fas fa-code fa-4x"></i><br/>
+                        <small class="text-uppercase">Kod</small>
+                    </div>
+                    <div class="col-3 tab  text-center" data-content="#portfolio">
+                        <i class="fas fa-suitcase fa-4x"></i><br/>
+                        <small class="text-uppercase">Portfolio</small>
+                    </div>
+                  
+                </div>
+
+            </div>
+        </div>
+        <div id="resume" class="tab-content d-block d-lg-none">
+            <h2 class="primary-text mt-5">EDUKACJA</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">INFORMATYKA I EKONOMETRIA</h3>
+                                
+
+                                <p class="description">
+                                     dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod!
+                                    Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">ZARZĄDZANIE</h3>
+                                
+
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod!
+                                    Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">TESTER OPROGRAMOWANIA</h3>
+                                
+
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod!
+                                    Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">TESTER OPROGRAMOWANIA</h3>
+                                
+
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod!
+                                    Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+         
+    </div>
+        <hr class="d-block d-lg-none"/>
+        <div id="code" class="tab-content d-block d-lg-none">
+            <h2 class="primary-text mt-5">TECHNOLOGIE KTÓRYCH UŻYWAM</h2>
+
+            <div class="row">
+                <div class="col-12 offset-0 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                    <div class="row gray mt-5">
+                        <div class="col-4 text-center pt-2"><img class="img-fluid" src="./img/html5.png"></div>
+                        <div class="col-4 text-center pt-2"><img class="img-fluid" src="./img/css.png"></i></div>
+                        <div class="col-4 text-center pt-2"><img class="img-fluid" src="./img/bootstrap.png"></i></div>
+                        <div class="col-4 text-center pt-2"><img class="img-fluid" src="./img/jquery.png"></div>
+                        <div class="col-4 text-center pt-2"><img class="img-fluid" src="./img/php.png"></div>
+                        <div class="col-4 text-center pt-2"><img class="img-fluid" src="./img/php.png"> </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="primary-text mt-5">ORAZ NADAL UCZĘ</h2>
+        </div>
+        <hr class="d-block d-lg-none" />
+        <div id="portfolio" class="tab-content d-block d-lg-none">
+            <h2 class="primary-text mt-5">MOJE PROJEKTY</h2>
+            <div class="row mt-5">
+                <div class="col-md-6 col-12 pt-3">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="./img/tictactoe.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">HTML, CSS, BOOTSTRAP, JQUERY </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 pt-3">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="./img/gallery.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">HTML, CSS, BOOTSTRAP,PHP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 pt-3">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="./img/todo.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">HTML, CSS, BOOTSTRAP, JQUERY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 pt-3">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="./img/memory.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">HTML, CSS, BOOTSTRAP, JQUERY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="d-block d-lg-none" />
+
+     
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-5 d-block d-lg-none">
+                <!--nie wyświetlaj na najmniejszych aż do lg i na lg pokaż i wzwyż  -->
+                <div class="row second-text text-left" id="right-icons">
+                    <!-- <div style="border-left:1px solid lightgray; height: 383px; width: 0"></div> -->
+                    <div class="col-12 col-md-4">
+                        <i class="fas fa-user fa-2x"></i> OLGA ŚPIEWAK
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="fas fa-home fa-2x"></i> CZĘSTOCHOWA
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="fas fa-envelope fa-2x"></i> <small>spiewakola@gmail.com</small>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="fas fa-mobile fa-2x"></i> 737 176 112
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="fab fa-linkedin fa-2x"></i> <a class="gray"
+                            href="https://www.linkedin.com/in/olga-%C5%9Bpiewak-30a590148/">linkedin.com</a>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <i class="fab fa-github fa-2x"></i> <a class="gray" href="https://github.com/spiewakola">github.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
